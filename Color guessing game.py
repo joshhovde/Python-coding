@@ -11,6 +11,6 @@ while True:
     guess = input()
     if guess in secretColor:
         print("good job you guessed correctly! Lets play again. Whats your next guess? ")
-        continue
+        break
     else:
         print ("try again")
